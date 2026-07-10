@@ -319,3 +319,62 @@ body{
     color: #000000;
     border: 1px solid #ccc;
 }
+.footer{
+    width: 100%;
+    background-color: #0D1B2A;
+    border-top: 1px solid #ccc;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+.footer_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footer_logo img{
+    width: 115px;
+    height: auto;
+    display: block;
+}
+.footer_socials{
+    display: flex;
+    gap: 15px;
+}
+.footer_socials a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.footer_divider{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footer_copyright{
+    font-size: .8rem;
+    color: #fff;
+    margin: 0;
+}
+.footer_links{
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+}
+.footer_links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
