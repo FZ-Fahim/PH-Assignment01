@@ -384,6 +384,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-direction: row-reverse;
 }
 .footer_socials img{
     width: 24px;
@@ -467,7 +468,7 @@ body{
 
 .sponsors{
     padding: 80px 0;
-    background: #ffffff;
+    background: #f8f9fc;
 }
 .sponsors_heading{
     text-align:center;
@@ -512,6 +513,10 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+    transition:0.3s;
 }
 .large{
     width:300px;
@@ -527,6 +532,10 @@ body{
 
 .small img{
     width:110px;
+}
+.sponsor_card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
 
 
