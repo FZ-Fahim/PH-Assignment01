@@ -200,3 +200,122 @@ body{
     font-weight: 400;
     color: #5c5b5b;
 }
+
+.pricing{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 80px auto;
+}
+.pricing_header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pricing_title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.pricing_subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5c5b5b;
+}
+.pricing_row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pricing_card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px 20px;
+    width: 300px;
+    text-align: left;
+    flex-direction: column;
+}
+.pricing_plan-label{
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #5c5b5b;
+}
+.pricing_plan-price{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.pricing_plan-duration{
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #5c5b5b;
+}
+.pricing_plan-features{
+    list-style: none;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.pricing_plan-features li{
+    font-size: .8rem;
+    font-weight: 350;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #333333;
+    position: relative;
+}
+.pricing_plan-features li::before{
+    content: '•';
+    color: #3532e7;
+    font-weight: 800;
+    position: absolute;
+    left: 0px;
+}
+.pricing_plan-button{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: .9rem;
+    font-weight: 600;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pricing_card.card-pro{
+    background-color: #0D1B2A;
+    color: #fff;
+}
+.pricing_card.card-pro .pricing_plan-label{
+    color: #4752e6;
+}
+.pricing_card.card-pro .pricing_plan-price{
+    color: #fff;
+}
+.pricing_card.card-pro .pricing_plan-duration{
+    color: #fff;
+}
+.pricing_card.card-pro .pricing_plan-features li{
+    color: #fff;
+}
+.pricing_card.card-team{
+    background-color: #F8F9FB;
+    color: #fff;
+}
+.btn-standard{
+    background-color: #ffffff;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.btn-pro{
+    background-color: #4752e6;
+    color: #fff;
+}
+.btn-team{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
