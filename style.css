@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, sans-serif;
     color: #fff;
 }
 
@@ -46,7 +46,7 @@ body{
 
 .header_nav-item a{
     text-decoration: none;
-    color: #5c5b5b;
+    color: #575757;
     font-size: .9rem;
     font-weight: 530;
     transition: color 0.3s ease;
@@ -65,7 +65,7 @@ body{
 .register_button-link{
     display: inline-block;
     text-decoration: none;
-    background-color: #3532e7;
+    background-color: #1D4ED8;
     color: #fff;
     height: 45px;
     padding: 15px 40px;
@@ -76,7 +76,7 @@ body{
 }
 
 .register_button-link:hover{
-    background-color: #2b2828;
+    background-color: #406adf;
 }
 
 .hero{
@@ -117,7 +117,7 @@ body{
 .hero_title{
     font-size: 3.5rem;
     font-weight: 700;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 .hero_text{
@@ -158,7 +158,7 @@ body{
 
 .speaker_card{
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -186,19 +186,19 @@ body{
     font-size: .7rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #021aa1;
+    color: #2563EB;
     text-transform: uppercase;
 }
 .speaker_card-name{
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #000000;
+    color: #0D1B2A;
 }
 .speaker_card-title{
     font-size: .8rem;
     font-weight: 400;
-    color: #5c5b5b;
+    color: #575757;
 }
 
 .pricing{
@@ -499,10 +499,6 @@ body{
     width:110px;
 }
 
-.sponsor_card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
-}
 
 /*Past Highlights*/
 .highlights{
