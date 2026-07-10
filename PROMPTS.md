@@ -11,3 +11,5 @@ The explanation was convencing so i took the suggestion and add the ai generated
 
 Then chatgpt gave me the sponsor section code which was pretty simple.
 So I aked to make some changes and said "I want to make 2 types of sponsor. type 1 is sponsoring more and type 2 is less. type 1 will have their box bigger than the type 2. for this make 3 type 1 sponsor and 4 type 2 sponsor."
+
+and no changes was made to Past Highlight section. It is added as the ai given.
