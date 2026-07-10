@@ -387,3 +387,114 @@ body{
     color: #fff;
     font-size: .8rem;
 }
+
+/* --- Sponsors Section Layout --- */
+.sponsors-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.sponsors_title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 48px;
+    letter-spacing: -0.5px;
+}
+
+/* Base style for a row tier block */
+.sponsors_tier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrap adjustments on smaller laptop views */
+    margin-bottom: 32px;
+}
+
+/* Individual box framing for each brand asset */
+.sponsor_logo {
+    background-color: #f8fafc; /* Clean gray panel background */
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sponsor_logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(100%); /* Keeps branding visually flat and neutral, matching premium configs */
+    opacity: 0.8;
+}
+
+/*Sponsor*/
+
+.sponsors{
+    padding: 80px 0;
+    background: #ffffff;
+}
+.sponsors_heading{
+    text-align:center;
+    margin-bottom:50px;
+    color:#000;
+}
+
+.sponsors_heading h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.sponsors_heading p{
+    color:#666;
+}
+.sponsor_title{
+    text-align:center;
+    margin:40px 0 25px;
+    color:#2563eb;
+    font-size:22px;
+}
+.sponsors_top{
+    width:90%;
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+.sponsors_bottom{
+    width:90%;
+    margin:30px auto 0;
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+.sponsor_card{
+    background:white;
+    border-radius:12px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.large{
+    width:300px;
+    height:150px;
+}
+.small{
+    width:180px;
+    height:100px;
+}
+.large img{
+    width:180px;
+}
+
+.small img{
+    width:110px;
+}
